@@ -1,0 +1,77 @@
+.loginContainer{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 200 auto;
+	height: 100vh;
+  background-color: var(--primary);
+  
+  .loginCard{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 495px;
+
+    .logoIcon{
+      margin-bottom: 60px;
+    }
+
+    .loginHeader{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: var(--white);
+      
+      .title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        margin-bottom: 22px;
+      }
+
+      .description{
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        margin-bottom: 22px;
+        max-width: 200px;
+      }
+
+     
+    }
+
+    .passwordGuid{
+      font-size: 12px;
+      line-height: 16px;
+      width: 100%;
+      color: var(--white);
+      margin-bottom: 22px;
+    }
+
+    .forgotPassword{
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: var(--white);
+      margin-top: 22px;
+      cursor: pointer;
+    }
+
+    .actionBtn {
+      color: var(--white);
+    }
+
+
+
+    .passwordHideShow{
+     cursor: pointer;
+    }
+  }
+}
+.sendMailBtn{
+  margin-top: 22px !important;
+}
