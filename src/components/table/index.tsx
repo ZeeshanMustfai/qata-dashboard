@@ -88,6 +88,7 @@ const ReactTable = ({ data, columns, title, name }: TReactTable) => {
 						disabled={!canPreviousPage}
 						variant="outlined"
 						color="secondary"
+						sx={{ display: { xs: "none", sm: "block" } }}
 					>
 						First
 					</Button>
@@ -114,7 +115,7 @@ const ReactTable = ({ data, columns, title, name }: TReactTable) => {
 						onClick={() => gotoPage(pageCount - 1)}
 						disabled={!canNextPage}
 						color="secondary"
-						sx={{ ml: 1 }}
+						sx={{ ml: 1, display: { xs: "none", sm: "block" } }}
 					>
 						Last
 					</Button>
@@ -137,7 +138,7 @@ const ReactTable = ({ data, columns, title, name }: TReactTable) => {
 						}}
 						style={{ width: "100px", height: "20px" }}
 						size="small"
-						sx={{ ml: 1 }}
+						sx={{ ml: 1, display: { xs: "none", sm: "block" } }}
 					/>
 				</Box>
 			)}
