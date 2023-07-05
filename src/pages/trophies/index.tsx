@@ -202,7 +202,7 @@ const Trophies = () => {
 			<PageHeader title="Trohpies">
 				<SearchInput />
 			</PageHeader>
-			<ReactTable data={dataTrophyReq} columns={columnsTrophies} />
+			<ReactTable data={dataTrophyReq.slice(0, 9)} columns={columnsTrophies} />
 		</div>
 	);
 };

@@ -6,7 +6,7 @@ const SearchInput = () => {
 		<TextField
 			name="search"
 			placeholder="Search here"
-			sx={{ width: "328px" }}
+			sx={{ width: { xs: "auto", md: "328px" } }}
 			InputProps={{
 				startAdornment: (
 					<InputAdornment position="start">

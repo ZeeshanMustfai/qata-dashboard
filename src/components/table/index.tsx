@@ -47,9 +47,9 @@ const ReactTable = ({ data, columns, title, name }: TReactTable) => {
 	);
 
 	return (
-		<Card>
+		<Card sx={{ overflow: "auto" }}>
 			<Typography className="totalVisitors">{title}</Typography>
-			<Table {...getTableProps()}>
+			<Table {...getTableProps()} style={{ overflowX: "auto" }}>
 				<TableHead>
 					{headerGroups.map((headerGroup: any) => (
 						<TableRow {...headerGroup.getHeaderGroupProps()}>

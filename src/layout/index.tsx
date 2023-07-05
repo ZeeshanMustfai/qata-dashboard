@@ -9,12 +9,17 @@ interface TSidebar {
 
 const Layout = ({ children }: TSidebar) => {
 	return (
-		<Box sx={{ display: "flex" }}>
+		<Box sx={{ display: "flex", flexDirection: { xs: "column", sm: "row" } }}>
 			<CssBaseline />
 			<Sidebar />
 			<Box
 				component="main"
-				sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
+				sx={{
+					flexGrow: 1,
+					bgcolor: "background.default",
+					p: 3,
+					width: "100%",
+				}}
 			>
 				{children}
 			</Box>
