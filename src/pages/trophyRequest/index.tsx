@@ -6,6 +6,7 @@ import { footballIcon, userIcon } from "../../assets/icons/indext";
 import { useCallback, useState } from "react";
 import VerifyModal from "../../components/modals/VerifyModal";
 import ImageModal from "../../components/modals/ImageModal";
+import SearchInput from "../../components/search";
 
 interface TTitleWithIcon {
 	icon?: string;
@@ -77,7 +78,7 @@ const TrophyRequests = () => {
 			accessor: "sport",
 			Cell: () => (
 				<Button variant="contained" onClick={handleVerify}>
-					Very Account
+					Verify Account
 				</Button>
 			),
 		},
@@ -85,7 +86,9 @@ const TrophyRequests = () => {
 
 	return (
 		<div>
-			<PageHeader title={"Trophy Requests"} />
+			<PageHeader title={"Trophy Requests"}>
+				<SearchInput />
+			</PageHeader>
 			<ReactTable data={dataTrophyReq} columns={columnsTrophyReq} />
 
 			{openVerify && (

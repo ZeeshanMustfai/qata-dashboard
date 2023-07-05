@@ -5,6 +5,7 @@ import { dataTrophyReq } from "../../mock/tablesMock";
 import { Button } from "@mui/material";
 import { TitleWithIcon } from "../trophyRequest";
 import { closeIcon, deleteIcon, footballIcon } from "../../assets/icons/indext";
+import SearchInput from "../../components/search";
 
 const columnsBlockAccount = [
 	{
@@ -44,7 +45,9 @@ const columnsBlockAccount = [
 const BlockedAccount = () => {
 	return (
 		<>
-			<PageHeader title={"Block Accounts"} />
+			<PageHeader title={"Blocked Accounts"}>
+				<SearchInput />
+			</PageHeader>
 			<ReactTable data={dataTrophyReq} columns={columnsBlockAccount} />
 		</>
 	);

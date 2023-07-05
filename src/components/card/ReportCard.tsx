@@ -51,7 +51,7 @@ const ReportCard = ({ isEnquiries }: TReportCard) => {
 
 					<div className="date common">
 						<Typography className="reportTitle">Date</Typography>
-						<Typography className="subTitle">06 jun 2023</Typography>
+						<Typography className="subTitle">06 Jun 2023</Typography>
 					</div>
 					{!isEnquiries && (
 						<div className="reportedOn common">

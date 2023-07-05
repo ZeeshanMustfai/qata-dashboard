@@ -26,21 +26,21 @@ const ReactTable = ({ data, columns, title, name }: TReactTable) => {
 		getTableBodyProps,
 		headerGroups,
 		rows,
-		prepareRow,
-		page,
-		canPreviousPage,
-		canNextPage,
-		pageOptions,
-		pageCount,
-		gotoPage,
-		nextPage,
-		previousPage,
-		setPageSize,
+		prepareRow, // @ts-ignore
+		page, // @ts-ignore
+		canPreviousPage, // @ts-ignore
+		canNextPage, // @ts-ignore
+		pageOptions, // @ts-ignore
+		pageCount, // @ts-ignore
+		gotoPage, // @ts-ignore
+		nextPage, // @ts-ignore
+		previousPage, // @ts-ignore
+		setPageSize, // @ts-ignore
 		state: { pageIndex, pageSize },
 	} = useTable(
 		{
 			columns,
-			data,
+			data, // @ts-ignore
 			initialState: { pageSize: 10 },
 		},
 		usePagination

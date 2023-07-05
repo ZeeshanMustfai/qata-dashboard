@@ -56,7 +56,7 @@ export const sidebarMenu = [
 	},
 	{
 		key: "block-account",
-		name: "Block Accounts",
+		name: "Blocked Accounts",
 		icon: sBlockAcc,
 		aIcon: activeBlockAcc,
 	},
@@ -113,7 +113,7 @@ export const lineSliderMock = [
 	},
 	{
 		total: "1.6m",
-		name: "Visitors from Usa",
+		name: "Visitors from USA",
 		percentage: 80,
 		color: "#7B61FF",
 	},
@@ -133,22 +133,22 @@ export const lineSliderMock = [
 
 export const circularSliderMock = [
 	{
-		title: "Unber 18",
+		title: "Under 18",
 		percentage: 50,
 		color: "#2ACD4E",
 	},
 	{
-		title: "Unber 30",
+		title: "Under 30",
 		percentage: 80,
 		color: "#7B61FF",
 	},
 	{
-		title: "Unber 50",
+		title: "Under 50",
 		percentage: 40,
 		color: "#FFC961",
 	},
 	{
-		title: "Unber 60",
+		title: "Under 60",
 		percentage: 90,
 		color: "#233F35",
 	},

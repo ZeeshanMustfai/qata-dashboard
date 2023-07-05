@@ -48,9 +48,12 @@ const LineSliderHeader = ({ title }: TSlideHeader) => {
 					<MenuItem value="">
 						<em>None</em>
 					</MenuItem>
-					<MenuItem value={10}>Ten</MenuItem>
-					<MenuItem value={20}>Twenty</MenuItem>
-					<MenuItem value={30}>Thirty</MenuItem>
+					<MenuItem value={10}>Yesterday</MenuItem>
+					<MenuItem value={20}>Last 7 days</MenuItem>
+					<MenuItem value={30}>Last 30 days</MenuItem>
+					<MenuItem value={40}>Last 60 days</MenuItem>
+					<MenuItem value={50}>Last 90 days</MenuItem>
+					<MenuItem value={60}>Last Year</MenuItem>
 				</Select>
 			</FormControl>
 		</Box>

@@ -18,10 +18,11 @@ const NotFound = () => {
 function App() {
 	const navigate = useNavigate();
 	const location = useLocation();
-	console.log("router", location);
+	const isAuth = localStorage.getItem("isAuth");
 	if (location.pathname === "/dashboard") {
 		navigate({ pathname: "/login" });
 	}
+
 	return (
 		<>
 			<Routes>

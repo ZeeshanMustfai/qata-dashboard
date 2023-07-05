@@ -35,6 +35,7 @@ const Login = () => {
 	const navigate = useNavigate();
 	const handleLogin = () => {
 		navigate({ pathname: "/" });
+		localStorage.setItem("isAuth", "adfiwerwe");
 	};
 	return (
 		<div className={styles.loginContainer}>
