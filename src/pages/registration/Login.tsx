@@ -34,8 +34,8 @@ export const CustomInput = styled(TextField)({
 const Login = () => {
 	const navigate = useNavigate();
 	const handleLogin = () => {
-		navigate({ pathname: "/" });
-		localStorage.setItem("isAuth", "adfiwerwe");
+		localStorage.setItem("isAuth", "true");
+		navigate({ pathname: "/dashboard" });
 	};
 	return (
 		<div className={styles.loginContainer}>

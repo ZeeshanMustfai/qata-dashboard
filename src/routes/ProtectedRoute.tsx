@@ -1,13 +1,15 @@
+import { ReactElement } from "react";
 import { Navigate, Outlet } from "react-router-dom";
 
 interface TProtectRoute {
-	isAuthenticated: boolean;
+	isAuthenticated: string | null;
+	children: ReactElement;
 }
-const ProtectedRoute = ({ isAuthenticated }: TProtectRoute) => {
+const ProtectedRoute = ({ isAuthenticated, children }: TProtectRoute) => {
 	if (!isAuthenticated) {
 		return <Navigate to="/login" />;
 	}
-	return <Outlet />;
+	return children;
 };
 
 export default ProtectedRoute;

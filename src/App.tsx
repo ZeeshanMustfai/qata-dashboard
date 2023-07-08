@@ -11,17 +11,13 @@ import News from "./pages/news";
 import ReportedUser from "./pages/reportedUser";
 import Enquiries from "./pages/enquiries";
 import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import ProtectedRoute from "./routes/ProtectedRoute";
 
 const NotFound = () => {
 	return <div>Page Not Found</div>;
 };
 function App() {
-	const navigate = useNavigate();
-	const location = useLocation();
 	const isAuth = localStorage.getItem("isAuth");
-	if (location.pathname === "/dashboard") {
-		navigate({ pathname: "/login" });
-	}
 
 	return (
 		<>
@@ -32,9 +28,11 @@ function App() {
 				<Route
 					path="/"
 					element={
-						<Layout>
-							<Dashboard />
-						</Layout>
+						<ProtectedRoute isAuthenticated={isAuth}>
+							<Layout>
+								<Dashboard />
+							</Layout>
+						</ProtectedRoute>
 					}
 				/>
 				<Route

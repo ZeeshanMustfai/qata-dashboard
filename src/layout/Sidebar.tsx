@@ -9,6 +9,11 @@ import { Menu } from "@mui/icons-material";
 const drawerWidth = 240;
 
 export const SidebarFooter = () => {
+	const navigate = useNavigate();
+	const handleLogout = () => {
+		localStorage.removeItem("isAuth");
+		navigate({ pathname: "/login" });
+	};
 	return (
 		<div className={styles.sidebarFooterWrapper}>
 			<div className={styles.footer}>
@@ -23,7 +28,12 @@ export const SidebarFooter = () => {
 				</div>
 			</div>
 			<div className={styles.footerLogout}>
-				<img src={sLogout} alt="logout" />
+				<img
+					src={sLogout}
+					alt="logout"
+					className="pointer"
+					onClick={handleLogout}
+				/>
 			</div>
 		</div>
 	);
