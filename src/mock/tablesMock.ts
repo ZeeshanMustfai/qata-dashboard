@@ -64,7 +64,7 @@ export const dataTrophyReq = [
 	{
 		name: "Alex Jordan",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 1,
@@ -72,7 +72,7 @@ export const dataTrophyReq = [
 	{
 		name: "Alex Jordan",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 2,
@@ -80,7 +80,7 @@ export const dataTrophyReq = [
 	{
 		name: "Alex Jordan",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 3,
@@ -88,7 +88,7 @@ export const dataTrophyReq = [
 	{
 		name: "Alex Jordan",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 3,
@@ -96,7 +96,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 4,
@@ -104,7 +104,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 5,
@@ -112,7 +112,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 6,
@@ -120,7 +120,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 7,
@@ -128,7 +128,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 8,
@@ -136,7 +136,7 @@ export const dataTrophyReq = [
 	{
 		name: "Tanner",
 		username: "linsley",
-		email: "zeeshamustfai22@gmail.com",
+		email: "waqas.abbas34@gmail.com",
 		sport: "Football",
 		phone: "+44 123 456 798",
 		action: 9,
@@ -144,7 +144,7 @@ export const dataTrophyReq = [
 	// {
 	// 	name: "Tanner",
 	// 	username: "linsley",
-	// 	email: "zeeshamustfai22@gmail.com",
+	// 	email: "waqas.abbas34@gmail.com",
 	// 	sport: "Football",
 	// 	phone: "+44 123 456 798",
 	// 	action: 10,
