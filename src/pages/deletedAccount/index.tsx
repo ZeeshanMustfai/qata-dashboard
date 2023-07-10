@@ -43,7 +43,7 @@ const columnsDeletedAccount = [
 const DeletedAccount = () => {
 	return (
 		<>
-			<PageHeader title={"Deleted Accounts"}>
+			<PageHeader title={"Delete Accounts"}>
 				<SearchInput />
 			</PageHeader>
 			<ReactTable data={dataTrophyReq} columns={columnsDeletedAccount} />

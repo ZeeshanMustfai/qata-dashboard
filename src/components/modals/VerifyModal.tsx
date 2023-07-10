@@ -112,7 +112,7 @@ export default function VerifyModal({
 				</div>
 				<Box>
 					<VerfiyTitle title="Username" desc="Alexjordan" />
-					<VerfiyTitle title="Supporting" desc="Football" />
+					<VerfiyTitle title="Sport" desc="Football" />
 					<VerfiyTitle title="Phone number" desc="+44 123 456 798" />
 				</Box>
 

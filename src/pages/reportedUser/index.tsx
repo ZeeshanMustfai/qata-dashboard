@@ -33,15 +33,13 @@ const ReportedUser = () => {
 						sx={{
 							m: 1,
 							minWidth: 120,
-							background: "#233F35",
 							borderRadius: "8px",
+							color: "primary",
 						}}
 						variant="outlined"
 						size="small"
 					>
-						<InputLabel id="demo-select-small-label" sx={{ color: "#fff" }}>
-							All
-						</InputLabel>
+						<InputLabel id="demo-select-small-label">All</InputLabel>
 						<Select
 							labelId="demo-select-small-label"
 							id="demo-select-small"
